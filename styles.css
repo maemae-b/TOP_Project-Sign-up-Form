@@ -1,0 +1,27 @@
+*, *::before, *::after { box-sizing: inherit; }
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+  margin: 0 auto;
+}
+
+div:first-child {
+  flex:  1 1 35%;
+
+  overflow: hidden;
+}
+
+img {
+  height: 100vh;
+}
+
+.sign-up {
+  flex: 1 1 70%;
+
+  background-color: whitesmoke;
+}
