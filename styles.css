@@ -13,7 +13,8 @@ html {
     Bold - 500 */
 
   --highlight-color: #24445e;
-  --form-color: #15232c; 
+  --form-color: #15232c;
+  --shadow-color: #d8d8d8;
 
   --medium-size: 1.3rem;
   --small-size: 1rem;
@@ -71,7 +72,7 @@ p:first-child {
 form > div {
   color: var(--form-color);
   background-color: white;
-  box-shadow: #d8d8d8 5px 5px 5px;
+  box-shadow: var(--shadow-color) 5px 5px 5px;
 
   padding: 1rem 3rem;
 }
