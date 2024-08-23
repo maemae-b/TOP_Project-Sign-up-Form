@@ -74,7 +74,10 @@ label {
   font-family: var(--Roboto);
   font-weight: 500;
   font-size: var(--label-size);
-  letter-spacing: 0.1ch;
+  letter-spacing: 0.25ch;
+
+  display: block;
+  margin-bottom: 0.1rem;
 }
 
 button {
