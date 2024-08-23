@@ -126,6 +126,17 @@ input {
 
 input:focus {
   box-shadow: var(--shadow-color) 0 5px 3px;
+  border: 1px solid blue;
+}
+
+input:not(:focus) {
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+input:invalid {
+  border: solid 1px red;
+  border-radius: 2px;
 }
 
 label {
