@@ -58,7 +58,8 @@ p {
   padding: 0 3rem;
 }
 
-form p {
+form p,
+p:last-child {
   margin: 0;
   margin-bottom: 1rem;
 }
