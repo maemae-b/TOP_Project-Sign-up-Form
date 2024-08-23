@@ -40,6 +40,8 @@ img {
   flex: 1 1 70%;
 
   background-color: whitesmoke;
+
+  padding: 2rem 0;
 }
 
 h1 {
@@ -52,8 +54,20 @@ p {
   font-size: var(--medium-size);
 }
 
-form {
+.sign-up > p {
+  padding: 0 3rem;
+}
+
+form p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+form > div {
   color: var(--form-color);
+  background-color: white;
+
+  padding: 1rem 3rem;
 }
 
 label {
@@ -69,6 +83,10 @@ button {
   color: white;
   background-color: var(--highlight-color);
   font-weight: 500;
+  
+  margin: 1rem 3rem 0 3rem;
+  padding: 0.8rem 2.5rem;
+  border-radius: 10px;
 }
 
 button,
