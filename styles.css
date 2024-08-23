@@ -105,11 +105,15 @@ button {
   
   color: white;
   background-color: var(--highlight-color);
-  font-weight: 500;
+  box-shadow: var(--shadow-color) 0 5px 4px;
+  font-weight: 600;
   
-  margin: 1rem 3rem 0 3rem;
+  margin: 2rem 3rem;
   padding: 0.8rem 2.5rem;
-  border-radius: 10px;
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
 }
 
 button,
