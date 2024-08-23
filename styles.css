@@ -41,7 +41,7 @@ img {
 
   background-color: whitesmoke;
 
-  padding: 2rem 0;
+  padding: 10rem 0;
 }
 
 h1 {
@@ -61,6 +61,10 @@ p {
 form p {
   margin: 0;
   margin-bottom: 1rem;
+}
+
+p:first-child {
+  padding-right: 20vw;
 }
 
 form > div {
